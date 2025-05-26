@@ -77,12 +77,10 @@
         <div class="content-container">
             <h1>Qui suis-je ?</h1>
             <p>
-                ♿ Je suis Nicolas Sarter, futur communicant, étudiant en première année de Licence
-                Information-Communication à l'Université de Lorraine, je suis passionné par les nouvelles technologies,
-                notamment le web, le design et la réalisation vidéo. Actuellement, je m'investis dans la création de
-                contenus visant à sensibiliser le grand public aux enjeux du #handicap, convaincu que le numérique peut
-                être un vecteur d'inclusion.
-            </p>
+                ♿️ Je suis Nicolas Sarter, étudiant en Information et Communication à l'Université de Lorraine. Passionné par
+                le développement web et la création digitale, je m'efforce de créer des projets innovants et utiles.
+                Mon objectif est de fonder un studio de développement web indépendant pour offrir des solutions digitales
+                aux entreprises et aux particuliers.
         </div>
         <button id="scrollIntoView"
             onclick="document.getElementById('projets-section').scrollIntoView({ behavior: 'smooth' });">
@@ -94,10 +92,9 @@
         <div class="content-container">
             <h1>Quel est mon but ?</h1>
             <p>
-                <!-- Mon but est de créer un studio de développement web indépendant, qui
-                pourra créer des sites web pour des entreprises ou des particuliers.
-                Je souhaite aussi créer des jeux vidéos, des applications mobiles et
-                des logiciels. -->
+                Mon but est de créer un studio de développement web indépendant, où je pourrai concevoir des sites web et
+                des applications sur mesure pour répondre aux besoins spécifiques de mes clients. Je souhaite également
+                partager mes connaissances et mon expertise à travers des projets open source et des tutoriels en ligne.
             </p>
         </div>
     </section>
