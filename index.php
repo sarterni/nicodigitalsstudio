@@ -264,16 +264,13 @@
     <footer>
         <p>© 2024 Nico Digitals Studio</p>
         <div class="links">
-            <a href="https://nicodigitalsstudio.com/">home |</a>
-            <a href="https://webportrait.nicodigitalsstudio.com/">webportrait |</a>
-            <a href="https://weather-app.nicodigitalsstudio.com/">weather |</a>
-            <a href="https://games.nicodigitalsstudio.com/">my games |</a>
-            <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast
-            </a>
-            <!-- <a href="">portfolio</a>
-            <a href="">support me</a>
-            <a href="">contact</a>
-            <a href="">about</a> -->
+            <a href="https://nicodigitalsstudio.com/">Accueil |</a>
+            <a href="https://webportrait.nicodigitalsstudio.com/">Mon Web Portrait |</a>
+            <a href="https://weather-app.nicodigitalsstudio.com/">Mon site Météo |</a>
+            <a href="https://games.nicodigitalsstudio.com/">Mes jeux |</a>
+            <a href="https://podcasts.lesactusdenico.info">Mon projet Podcast |</a>
+            <a href="https://lesactusdenico.info">Les Actus de Nico |</a>
+            <a href="contact.html">Contact</a>
         </div>
     </footer>
 
