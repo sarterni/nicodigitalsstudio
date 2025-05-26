@@ -259,7 +259,7 @@
     </section>
 
     <footer>
-        <p>© 2024 Nico Digitals Studio</p>
+        <p>© 2025 Nico Digitals Studio</p>
         <div class="links">
             <a href="https://nicodigitalsstudio.com/">Accueil |</a>
             <a href="https://webportrait.nicodigitalsstudio.com/">Mon Web Portrait |</a>
