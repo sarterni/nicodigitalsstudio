@@ -249,15 +249,12 @@
             <a href="https://bento.me/nicolassarter" class="fab fa-bento">
                 <img src="./img/bento me icon.png" alt="" width="20px" height="20px" />
             </a>
-            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
-            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
-            <a href="https://www.instagram.com/brindille070/" class="fab fa-instagram"></a>
-            <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
-            <!-- <a href="discordapp.com/users/689827486204297227" class="fab fa-discord"></a>
-            <a href="https://facebook.com" class="fab fa-facebook"></a>
-            <a href="https://twitter.com" class="fab fa-twitter"></a>
-            <a href="https://youtube.com" class="fab fa-youtube"></a> -->
+            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
+            <a href="https://www.instagram.com/lesactusdenico" class="fab fa-instagram"></a>
+            <a href="https://github.com/sarterni" class="fab fa-github"></a>
+            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
+         
         </div>
     </section>
 
