@@ -208,6 +208,12 @@ div#projets button {
     font-weight: bold;
 }
 
+span#nav-badge {
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    
+}
 
 
 div#donate button,

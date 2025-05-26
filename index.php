@@ -29,22 +29,30 @@
         </div>
         <div class="nav-content" aria-labelledby="Barre de navigation">
             <li>
-                <a class="active" href="https://nicodigitalsstudio.com/">home</a>
+                <a class="active" href="https://nicodigitalsstudio.com/"> Accueil</a>
             </li>
             <li>
-                <a href="https://webportrait.nicodigitalsstudio.com/">webportrait</a>
+                <a href="https://webportrait.nicodigitalsstudio.com/"> Mon Web Portrait</a>
             </li>
             <li>
-                <a href="https://weather-app.nicodigitalsstudio.com/">weather</a>
+                <a href="https://weather-app.nicodigitalsstudio.com/"> Mon site Météo</a>
             </li>
-            <li><a href="https://games.nicodigitalsstudio.com/">my games</a></li>
             <li>
-                <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html">podcast</a>
+                <a href="https://games.nicodigitalsstudio.com/"> Mes jeux</a>
             </li>
-            <li><a href="https://compact.univ-lorraine.fr/view/view.php?id=130318">portfolio</a></li>
-            <li><a href="">support me</a></li>
-            <li><a href="">contact</a></li>
-            <li><a href="">about</a></li>
+            <li>
+                <a href="https://podcasts.lesactusdenico.info"> Mon projet Podcast</a>
+            </li>
+            <li>
+                <a href="https://lesactusdenico.info">
+                    Les Actus de Nico <span id="nav-badge" class="badge">New</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact</a>
+            </li>
+
+
         </div>
         <div class="Restricted">
             <input id="input-restricted" type="text" placeholder="Mot de passe" /><br />
@@ -162,52 +170,8 @@
     <h1 class="main-title">Mes travaux dans le domaine de l'IC</h1>
 
     <div class="btn-grid" id="projets">
-        <a href="https://games.nicodigitalsstudio.com/podcast/podcast.html" style="text-decoration: none">
-            <button class="">Mon projet radio</button>
-        </a>
-    </div>
-
-    <h1 class="main-title">J'apporte mon soutien en ce moment à...</h1>
-    <div class="handijojoText-div">
-        <p id="handijojo-text">HandiJojo</p>
-        <p>
-            Depuis un grave accident, je suis lourdement handicapé. Je vis en
-            Moselle. Je retrouve le goût à la vie grâce à de nombreuses activités
-            que je souhaite vous faire découvrir
-        </p>
-    </div>
-
-    <div class="btn-grid" id="parterners">
-        <a href="https://www.youtube.com/channel/UC-GiuOvF_TdfICy2JzCfliw" style="text-decoration: none">
-            <button id="handijojo-youtube" class="handijojo-youtube-button">
-                <img id="handijojo-logo-youtube" class="company-logo" src="./img/youtube_logo.jpeg"
-                    alt="HandiJojo Logo" />
-                <span id="span-handijojo-youtube" class="donate-span">Clique Ici pour découvrir la chaine</span>
-            </button>
-        </a>
-
-        <a href="https://www.instagram.com/handi.jojo?utm_source=qr" style="text-decoration: none">
-            <button id="handijojo-instagram" class="handijojo-instagram-button">
-                <img id="handijojo-logo-instagram" class="company-logo" src="./img/Instagram_icon.png"
-                    alt="HandiJojo Logo" />
-                <span id="span-handijojo-instagram" class="donate-span">Clique Ici pour découvrir le site</span>
-            </button>
-        </a>
-
-        <a href="https://www.tiktok.com/@handijojo?lang=fr" style="text-decoration: none">
-            <button id="handijojo-tiktok" class="handijojo-tiktok-button">
-                <img id="handijojo-logo-tiktok" class="company-logo" src="./img/tiktok-icon-free-png.webp"
-                    alt="HandiJojo Logo" />
-                <span id="span-handijojo-tiktok" class="donate-span">Clique Ici pour découvrir le tiktok</span>
-            </button>
-        </a>
-        <a href="https://www.facebook.com/people/HandiJojo/61559819096907/?mibextid=kFxxJD"
-            style="text-decoration: none">
-            <button id="handijojo-facebook" class="handijojo-facebook-button">
-                <img id="handijojo-logo-facebook" class="company-logo" src="./img/Facebook_Logo_2023.png"
-                    alt="HandiJojo Logo" />
-                <span id="span-handijojo-facebook" class="donate-span">Clique Ici pour découvrir la page</span>
-            </button>
+        <a href="https://podcasts.lesactusdenico.info" style="text-decoration: none">
+            <button class="">Mon projet podcast</button>
         </a>
     </div>
 
@@ -262,12 +226,21 @@
     <h1 class="main-title">Je travaille pour</h1>
 
     <div class="btn-grid" id="donate">
+        <a href="https://lesactusdenico.info" style="text-decoration: none">
+            <button id="lesactusdenico" class="lesactusdenico-button">
+                <img id="lesactusdenico-logo" class="company-logo" src="./img/LesActusDeNico.png"
+                    alt="Les Actus de Nico Logo" />
+                <span id="span-lesactusdenico" class="donate-span">Clique Ici pour découvrir le site</span>
+            </button>
+        </a>
+
         <a href="https://babylon-destruct.website/" style="text-decoration: none">
             <button id="babylon" class="babylon-button">
                 <img id="babylon-logo" class="company-logo" src="./img/babylon.png" alt="Babylon Logo" />
                 <span id="span-babylon" class="donate-span">Clique Ici pour découvrir le site</span>
             </button>
         </a>
+
     </div>
 
     <section class="sec-faq" id="no6">
