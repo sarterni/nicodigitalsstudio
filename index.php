@@ -172,7 +172,7 @@
 
     <div class="btn-grid" id="projets">
         <a href="https://podcasts.lesactusdenico.info" style="text-decoration: none">
-            <button class="">Mon projet podcast</button>
+            <button aria-label="Mon projet podcast">Mon projet podcast</button>
         </a>
     </div>
 
