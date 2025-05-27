@@ -249,15 +249,14 @@
     <section class="sec-faq" id="no6">
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
         <div class="social-media">
-            <a href="https://bento.me/nicolassarter" class="fab fa-bento">
-                <img src="./img/bento me icon.png" alt="" width="20px" height="20px" />
+            <a href="https://bento.me/nicolassarter" aria-label="Bento profile"  class="fab fa-bento">
+            <img src="./img/bento me icon.png" alt="Bento.me" width="20" height="20" />
             </a>
-            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat"></a>
-            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin"></a>
-            <a href="https://www.instagram.com/lesactusdenico" class="fab fa-instagram"></a>
-            <a href="https://github.com/sarterni" class="fab fa-github"></a>
-            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
-
+            <a href="mailto:contact@nicodigitalsstudio.com" class="fab fa-rocketchat" aria-label="Envoyer un email"></a>
+            <a href="https://linkedin.com/nsarter/" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+            <a href="https://www.instagram.com/lesactusdenico" class="fab fa-instagram" aria-label="Instagram"></a>
+            <a href="https://github.com/sarterni" class="fab fa-github" aria-label="GitHub"></a>
+            <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon" aria-label="Mastodon"></a>
         </div>
     </section>
 
