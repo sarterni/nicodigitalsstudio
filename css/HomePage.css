@@ -2,12 +2,10 @@ html {
     display: block;
 }
 
-
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 .nav-menu {
     z-index: 1000;
@@ -27,13 +25,11 @@ body {
     margin: 0;
     margin-bottom: 5%;
     padding-left: 20px;
-
 }
 
 .navbar-image {
     display: flex;
     align-items: center;
-
 }
 
 .navbar-image img {
@@ -47,10 +43,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-
-
-
 
 li {
     display: inline-block;
@@ -72,7 +64,6 @@ li a:hover:not(.active) {
     background-color: #04aa6d;
 }
 
-
 div.Restricted {
     float: right;
 }
@@ -81,13 +72,11 @@ div.Restricted {
     font-size: 30px;
     cursor: pointer;
     border: none;
-
 }
 
 .nav-Togle-btn:hover {
     background-color: #111;
     color: white;
-
 }
 
 .sec-faq {
@@ -100,11 +89,9 @@ div.Restricted {
 }
 
 div.content-container {
-
     max-width: 800px;
     margin: auto;
     text-align: center;
-
 }
 
 div.content-container h1 {
@@ -167,13 +154,6 @@ button#scrollIntoView {
     margin-top: 10px;
 }
 
-/* .btn-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: wrap;
-} */
-
 div#projets button {
     background-color: #04aa6d;
     width: 200px;
@@ -189,8 +169,6 @@ div#projets button {
     padding: 10px 24px;
     cursor: pointer;
 }
-
-
 
 .button-container {
     position: relative;
@@ -212,9 +190,7 @@ span#nav-badge {
     position: relative;
     display: inline-block;
     font-size: 14px;
-
 }
-
 
 div#donate button,
 div#parterners button {
@@ -229,7 +205,6 @@ div#parterners button {
     padding: 10px;
     cursor: pointer;
 }
-
 
 button#handijojo-tiktok {
     background-color: #add8e6;
@@ -253,39 +228,31 @@ button#handijojo-youtube {
 
 button#babylon {
     background-color: #f0db4f;
-
 }
 
 button#hostinger {
     background-color: #673de6;
-
 }
 
 button#ebuyclub {
     background-color: #077bc2;
-
 }
 
 button#honey {
     background-color: #0099FF;
-
 }
 
 button#moovance {
     background-color: #145d92;
-
 }
 
 button#dictanote {
     background-color: #d45f84;
-
 }
 
 button#tipeee {
     background-color: #de4f59;
-
 }
-
 
 div#donate button:hover,
 div#parterners button:hover {
@@ -306,7 +273,6 @@ div.handijojoText-div {
     max-width: 800px;
     margin: auto;
     text-align: center;
-
 }
 
 div.handijojoText-div p {
@@ -316,8 +282,6 @@ div.handijojoText-div p {
     margin-bottom: 20px;
     font-size: 24px;
 }
-
-
 
 .company-logo {
     width: 100px;
@@ -333,7 +297,6 @@ div.handijojoText-div p {
 a {
     text-decoration: none;
 }
-
 
 .homepage-logo img {
     display: block;
@@ -367,7 +330,6 @@ div.social-media {
     padding: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -388,7 +350,6 @@ div.social-media .fab {
     justify-content: center;
     align-items: center;
 }
-
 
 div.social-media .fa-bento {
     background: #6d84f8;
@@ -412,7 +373,6 @@ div.social-media .fa-discord {
 div.social-media .fa-rocketchat {
     background: #881214;
     color: white;
-
 }
 
 div.social-media .fa-facebook {
@@ -439,8 +399,6 @@ div.social-media .fa-youtube {
     background: #bb0000;
     color: white;
 }
-
-
 
 div.social-media .fab:hover {
     background-color: #ddd;
@@ -472,9 +430,7 @@ footer a:hover {
     text-decoration: underline;
     text-decoration-color: green;
     color: #04aa6d;
-
 }
-
 
 @media screen and (max-width: 1075px) {
     .nav-content {
@@ -502,11 +458,7 @@ footer a:hover {
     body {
         overflow-x: hidden;
     }
-
-
-
 }
-
 
 div.scrolling-text {
     position: fixed;
@@ -530,7 +482,6 @@ div.scrolling-text span {
     0% {
         transform: translateX(-100%);
     }
-
     100% {
         transform: translateX(100%);
     }
