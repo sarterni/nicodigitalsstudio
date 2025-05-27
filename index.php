@@ -172,6 +172,26 @@
         </a>
     </div>
 
+       <h1 class="main-title">Je travaille pour</h1>
+
+    <div class="btn-grid" id="donate">
+        <a href="https://lesactusdenico.info" style="text-decoration: none">
+            <button id="lesactusdenico" class="lesactusdenico-button">
+                <img id="lesactusdenico-logo" class="company-logo" src="img/Les Actus de nico logo.png"
+                    alt="Les Actus de Nico Logo" />
+                <span id="span-lesactusdenico" class="donate-span">Clique Ici pour découvrir le site</span>
+            </button>
+        </a>
+
+        <a href="https://babylon-destruct.website/" style="text-decoration: none">
+            <button id="babylon" class="babylon-button">
+                <img id="babylon-logo" class="company-logo" src="./img/babylon.png" alt="Babylon Logo" />
+                <span id="span-babylon" class="donate-span">Clique Ici pour découvrir le site</span>
+            </button>
+        </a>
+
+    </div>
+
     <section id="donate-section">
         <h1 class="main-title">Me soutenir</h1>
 
@@ -220,25 +240,7 @@
             </a>
         </div>
     </section>
-    <h1 class="main-title">Je travaille pour</h1>
-
-    <div class="btn-grid" id="donate">
-        <a href="https://lesactusdenico.info" style="text-decoration: none">
-            <button id="lesactusdenico" class="lesactusdenico-button">
-                <img id="lesactusdenico-logo" class="company-logo" src="./img/LesActusDeNico.png"
-                    alt="Les Actus de Nico Logo" />
-                <span id="span-lesactusdenico" class="donate-span">Clique Ici pour découvrir le site</span>
-            </button>
-        </a>
-
-        <a href="https://babylon-destruct.website/" style="text-decoration: none">
-            <button id="babylon" class="babylon-button">
-                <img id="babylon-logo" class="company-logo" src="./img/babylon.png" alt="Babylon Logo" />
-                <span id="span-babylon" class="donate-span">Clique Ici pour découvrir le site</span>
-            </button>
-        </a>
-
-    </div>
+ 
 
     <section class="sec-faq" id="no6">
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
