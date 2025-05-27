@@ -22,14 +22,14 @@
         <span>NEW ! Le site est désormais optimisé pour une meilleure expérience utilisateur sur mobile.</span>
     </div>
 
-    <ul class="nav-menu">
-        <button class="nav-Togle-btn" onclick="toggleNav()">☰</button>
+    <nav class="nav-menu" aria-label="Barre de navigation principale">
+        <button class="nav-Togle-btn" onclick="toggleNav()" aria-label="Ouvrir le menu de navigation">☰</button>
         <div class="navbar-image">
-            <img src="./logoNDS.png" alt="" />
+            <img src="./logoNDS.png" alt="Logo Nico Digitals Studio" />
         </div>
-        <div class="nav-content" aria-labelledby="Barre de navigation">
+        <ul class="nav-content">
             <li>
-                <a class="active" href="https://nicodigitalsstudio.com/"> Accueil</a>
+                <a class="active" href="https://nicodigitalsstudio.com/">Accueil</a>
             </li>
             <li>
                 <a href="https://webportrait.nicodigitalsstudio.com/"> Mon Web Portrait</a>
@@ -53,14 +53,15 @@
             </li>
 
 
-        </div>
+        </ul>
         <div class="Restricted">
-            <input id="input-restricted" type="text" placeholder="Mot de passe" /><br />
+            <label for="input-restricted" class="visually-hidden">Mot de passe</label>
+            <input id="input-restricted" type="text" placeholder="Mot de passe" aria-label="Mot de passe" /><br />
             <a href="RestrictedAccess.html" style="text-decoration: none">
                 <button id="go-to-restrcted" disabled>Connectez vous</button>
             </a>
         </div>
-    </ul>
+    </nav>
 
 
     <div class="homepage-logo">
@@ -77,9 +78,11 @@
         <div class="content-container">
             <h1>Qui suis-je ?</h1>
             <p>
-                ♿️ Je suis Nicolas Sarter, étudiant en Information et Communication à l'Université de Lorraine. Passionné par
+                ♿️ Je suis Nicolas Sarter, étudiant en Information et Communication à l'Université de Lorraine.
+                Passionné par
                 le développement web et la création digitale, je m'efforce de créer des projets innovants et utiles.
-                Mon objectif est de fonder un studio de développement web indépendant pour offrir des solutions digitales
+                Mon objectif est de fonder un studio de développement web indépendant pour offrir des solutions
+                digitales
                 aux entreprises et aux particuliers.
         </div>
         <button id="scrollIntoView"
@@ -92,7 +95,8 @@
         <div class="content-container">
             <h1>Quel est mon but ?</h1>
             <p>
-                Mon but est de créer un studio de développement web indépendant, où je pourrai concevoir des sites web et
+                Mon but est de créer un studio de développement web indépendant, où je pourrai concevoir des sites web
+                et
                 des applications sur mesure pour répondre aux besoins spécifiques de mes clients. Je souhaite également
                 partager mes connaissances et mon expertise à travers des projets open source et des tutoriels en ligne.
             </p>
@@ -142,24 +146,24 @@
             <!-- Step 1 & 2: Wrap the button and add a badge -->
             <div class="button-container">
                 <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-                    <button id="new-btn">Joue au PetitBac</button>
+                    <button aria-label="Joue au PetitBac" id="new-btn">Joue au PetitBac</button>
                     <span class="badge">New</span>
                     <!-- Badge text -->
                 </a>
             </div>
 
             <a href="https://weather-app.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Mon site météo</button>
+                <button aria-label="Mon site météo">Mon site météo</button>
             </a>
 
 
 
             <a href="https://games.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Mes jeux</button>
+                <button aria-label="Mes jeux">Mes jeux</button>
             </a>
 
             <a href="https://webportrait.nicodigitalsstudio.com/" style="text-decoration: none">
-                <button class="">Découvre mon web portrait</button>
+                <button aria-label="Découvre mon web portrait">Découvre mon web portrait</button>
             </a>
         </div>
     </section>
@@ -172,7 +176,7 @@
         </a>
     </div>
 
-       <h1 class="main-title">Je travaille pour</h1>
+    <h1 class="main-title">Je travaille pour</h1>
 
     <div class="btn-grid" id="donate">
         <a href="https://lesactusdenico.info" style="text-decoration: none">
@@ -240,7 +244,7 @@
             </a>
         </div>
     </section>
- 
+
 
     <section class="sec-faq" id="no6">
         <h1 class="main-title" id="sc-title">Suivez moi sur :</h1>
@@ -253,7 +257,7 @@
             <a href="https://www.instagram.com/lesactusdenico" class="fab fa-instagram"></a>
             <a href="https://github.com/sarterni" class="fab fa-github"></a>
             <a href="https://piaille.fr/@sarter_nicolas" class="fab fa-mastodon"></a>
-         
+
         </div>
     </section>
 
