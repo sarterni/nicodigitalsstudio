@@ -449,9 +449,6 @@ div.scrolling-text span {
     animation: scroll 20s linear infinite;
     padding-bottom: 5px;
 }
-ul.nav-menu {
-    margin-top: 20px;
-}
 
 div.btn-grid {
     display: flex;
@@ -473,29 +470,7 @@ div.btn-grid .btn {
         flex-direction: column;
         align-items: center;
     }
-
-    ul.nav-menu {
-        flex-direction: column;
-    }
-
-    div.homepage-logo {
-        margin-top: 275px;
-    }
-
-    .nav-Togle-btn {
-        display: block;
-    }
-
-    div.social-media {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    body {
-        overflow-x: hidden;
-    }
 }
-
 
 @keyframes scroll {
     0% {
@@ -515,6 +490,26 @@ div.btn-grid .btn {
 }
 
 @media (max-width: 480px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-menu li {
+        display: block;
+        width: 100%;
+    }
+    .nav-menu li a {
+        text-align: center;
+        padding: 10px;
+    }
+    .nav-Togle-btn {
+        display: block;
+        margin: 10px 0;
+    }
+    .navbar-image img {
+        width: 80px;
+        height: auto;
+    }
     
 
 
